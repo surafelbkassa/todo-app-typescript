@@ -7,10 +7,28 @@ body {
 }
 
 .container {
-    /* max-width: 600px; */
-    margin: 50px auto;
-    background-color: #fff;
+    background: white;
+    width: 400px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+button:hover {
+    background-color: darkcyan;
+}
+.completed {
+    text-decoration: line-through; 
+    color: gray;    
 }
