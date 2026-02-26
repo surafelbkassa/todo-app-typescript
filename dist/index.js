@@ -7,7 +7,6 @@
 //     li.textContent = txt;
 //     document.getElementById("taskList")?.appendChild(li);
 // }
-Object.defineProperty(exports, "__esModule", { value: true });
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.getElementById("addTaskinput");
     const button = document.getElementById("addTaskBtn");
